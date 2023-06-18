@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Me</title>
+</head>
+<body>
+    <h1>Click Me Game</h1>
+    <div>
+        <button id="nameBtn" onclick="enterName()">Enter your Name</button>
+        <button id="countBtn" onclick="startGame()" disabled="disabled">Click Me</button>
+    </div>
+    <div>
+        <h4>Current Player: <span id="playerName"></span></h4>
+        <h4>Score: <span id="count"></span></h4>
+    </div>
+    <div>
+        <table cellspacing="0" width="100%" border="1">
+            <thead>
+                <tr>
+                    <th>Player Number</th>
+                    <th>Player Name</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody id="resultBody"></tbody>
+        </table>
+    </div>
+   
+   
+    <script src="./index.js"></script>
+</body>
+</html>

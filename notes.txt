@@ -1,0 +1,18 @@
+*Click Me Game*
+
+Ask user to input their name on btn(Enter your name) click
+    //if user enters no name, ask again till name is entered
+Once name is entered, disable the button
+Place another btn beside the first, this btn should be default disabled
+When user enters their name, enable the second btn(Click Me)
+When user first click on second button, start timer for 5 seconds.
+Store the count of how many times user has clicked the btn
+After 5 sec of first click, Reset counter so that without reloading the page,
+the game should be Reset
+and Display the list of all the users with their count
+
+
+enter name
+start game
+reset game
+display results
